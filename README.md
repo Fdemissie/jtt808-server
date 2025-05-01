@@ -1,6 +1,5 @@
 # JTT808 Protocol Server
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java CI](https://github.com/fdemissie/jtt808-server/actions/workflows/build.yml/badge.svg)](https://github.com/fdemissie/jtt808-server/actions/workflows/build.yml)
 [![GitHub Release](https://img.shields.io/github/release/fdemissie/jtt808-server.svg)](https://github.com/fdemissie/jtt808-server/releases)
 
@@ -10,15 +9,16 @@ The is just a quick start server implementation for the JTT808/T808 vehicle trac
 
 - JTT808 protocol v2011/v2013/v2019 support
 - Message types supported:
-  - Terminal registration (0x0100)
   - Heartbeat (0x0001)
   - Location reporting (0x0200)
 - MySQL/PostgreSQL storage
 
 ## Can be extended to include
+- Terminal registration (0x0100)
+- Terminal authentication (0x0102)
 - Web dashboard
 - REST API for device management
-- Horizontal scaling support
+- Horizontal scaling support ...
 
 ## Quick Start
 

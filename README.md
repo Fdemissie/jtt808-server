@@ -30,7 +30,7 @@ The is just a quick start server implementation for the JTT808/T808 vehicle trac
 
 1.  Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jtt808-server.git
+   git clone https://github.com/fdemissie/jtt808-server.git
    cd jtt808-server
 2. Configure the database:
 

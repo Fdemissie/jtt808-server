@@ -13,10 +13,10 @@ The is just a quick start server implementation for the JTT808/T808 vehicle trac
   - Terminal registration (0x0100)
   - Heartbeat (0x0001)
   - Location reporting (0x0200)
-  - Terminal authentication (0x0102)
-  - And [20+ other messages](docs/protocol-support.md)
 - MySQL/PostgreSQL storage
-- Web dashboard (optional)
+
+## Can be extended to include
+- Web dashboard
 - REST API for device management
 - Horizontal scaling support
 
@@ -28,15 +28,14 @@ The is just a quick start server implementation for the JTT808/T808 vehicle trac
 
 ### Installation
 
-1.  Clone the repository:
-   ```bash
+#### 1.  Clone the repository:
    git clone https://github.com/fdemissie/jtt808-server.git
    cd jtt808-server
-2. Configure the database:
+#### 2. Configure the database:
 
     mysql -u root -p < sql/schema.sql
 
-3. Build and run:
+##### 3. Build and run:
 
     mvn clean package
     java -jar target/jtt808-server.jar

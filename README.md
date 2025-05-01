@@ -1,8 +1,5 @@
 # JTT808 Protocol Server
 
-[![Java CI](https://github.com/fdemissie/jtt808-server/actions/workflows/build.yml/badge.svg)](https://github.com/fdemissie/jtt808-server/actions/workflows/build.yml)
-[![GitHub Release](https://img.shields.io/github/release/fdemissie/jtt808-server.svg)](https://github.com/fdemissie/jtt808-server/releases)
-
 The is just a quick start server implementation for the JTT808/T808 vehicle tracking protocol, built with Netty. It's far from complete and you are welcome to use/improve it. 
 
 ## Features
